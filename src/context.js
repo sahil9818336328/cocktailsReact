@@ -18,6 +18,7 @@ const AppProvider = ({ children }) => {
 
   // fetch drinks function
   const fetchDrinks = useCallback(async () => {
+    //preventing inifinite loop.
     setLoading(true);
     try {
       const response = await fetch(`${url}${searchTerm}`);
