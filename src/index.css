@@ -136,9 +136,9 @@ Navbar
   height: 5rem;
   display: flex;
   align-items: center;
-
   box-shadow: var(--lightShadow);
 }
+
 .nav-center {
   display: flex;
   justify-content: space-between;
