@@ -168,6 +168,11 @@ Navbar
 .logo {
   width: 12rem;
 }
+@media screen and (max-width: 400px) {
+  .logo {
+    width: 9rem;
+  }
+}
 /* 
 ====== 
 About
